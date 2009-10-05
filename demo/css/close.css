@@ -1,0 +1,19 @@
+#tabs-location ul.yui-nav li span.close {
+    background-image: url(tab_close.png);
+    text-indent: 500px;
+    display: block;
+    overflow: hidden;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: -1px;
+    right: -1px;
+}
+
+/** 
+ * While we're having the loading class set.
+ * Removig it, will remove the loading message
+ */
+.loading {
+  background: url(images/spinner.gif) no-repeat center center;
+}
